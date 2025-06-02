@@ -157,7 +157,7 @@ const SideMenu = (props: SideMenuProps) => {
     const handleMenuClick = (selectedItem: {
         id: number;
         hasChildren: boolean;
-        isOpenNestedMenu: boolean;
+        isOpenNestedMenu?: boolean;
     }) => {
         if (!selectedItem.hasChildren) return;
 
