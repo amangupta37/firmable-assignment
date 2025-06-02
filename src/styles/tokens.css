@@ -1,0 +1,145 @@
+:root {
+    /* slate */
+    --color-slate-25: #f9fafb;
+    --color-slate-50: #f0f3f9;
+    --color-slate-100: #e9eff6;
+    --color-slate-200: #d7dfe9;
+    --color-slate-300: #afbaca;
+    --color-slate-400: #8897ae;
+    --color-slate-500: #5e718d;
+    --color-slate-600: #455468;
+    --color-slate-700: #3d4a5c;
+    --color-slate-800: #2d3643;
+    --color-slate-900: #1c222b;
+
+    /* blue */
+    --color-blue-25: #f2f5ff;
+    --color-blue-50: #e8edff;
+    --color-blue-100: #aebfff;
+    --color-blue-200: #94abff;
+    --color-blue-300: #6f8eff;
+    --color-blue-400: #4a72ff;
+    --color-blue-500: #1b4dff;
+    --color-blue-600: #0f3cd9;
+    --color-blue-700: #042bb2;
+    --color-blue-800: #042185;
+    --color-blue-900: #00114a;
+
+    /* blue dark */
+    --color-blue-dark-25: #dfe6fb;
+    --color-blue-dark-50: #ced9fb;
+    --color-blue-dark-100: #aabffc;
+    --color-blue-dark-200: #87a6fd;
+    --color-blue-dark-300: #658bfe;
+    --color-blue-dark-400: #4174ff;
+    --color-blue-dark-500: #1b54ff;
+    --color-blue-dark-600: #1645d3;
+    --color-blue-dark-700: #1036a8;
+    --color-blue-dark-800: #0b277c;
+    --color-blue-dark-900: #041546;
+
+    /* green dark */
+    --color-green-dark-25: #a6f4ce;
+    --color-green-dark-50: #98eec4;
+    --color-green-dark-100: #7be1af;
+    --color-green-dark-200: #5fd49a;
+    --color-green-dark-300: #43c785;
+    --color-green-dark-400: #26ba70;
+    --color-green-dark-500: #18b466;
+    --color-green-dark-600: #149454;
+    --color-green-dark-700: #107542;
+    --color-green-dark-800: #0b5531;
+    --color-green-dark-900: #012c16;
+
+    /* green */
+    --color-green-25: #eafef5;
+    --color-green-50: #d7f8e9;
+    --color-green-100: #8fe7b8;
+    --color-green-200: #48d28e;
+    --color-green-300: #2fd181;
+    --color-green-400: #1db469;
+    --color-green-500: #11a75c;
+    --color-green-600: #0a9952;
+    --color-green-700: #048746;
+    --color-green-800: #046a37;
+    --color-green-900: #02542b;
+    --color-green-mint: #e9f7f0;
+
+    /* yellow */
+    --color-yellow-25: #fff9df;
+    --color-yellow-50: #fff2c4;
+    --color-yellow-100: #ffe99d;
+    --color-yellow-200: #f7dc7c;
+    --color-yellow-300: #f8d34f;
+    --color-yellow-400: #f5c61e;
+    --color-yellow-500: #e9b90b;
+    --color-yellow-600: #d8a800;
+    --color-yellow-700: #b18a00;
+    --color-yellow-800: #896b00;
+    --color-yellow-900: #624d00;
+
+    /* fuchsia */
+    --color-fuchsia-25: #fbedfd;
+    --color-fuchsia-50: #f4c9fa;
+    --color-fuchsia-100: #eca5f7;
+    --color-fuchsia-200: #e581f4;
+    --color-fuchsia-300: #de5df1;
+    --color-fuchsia-400: #d638ee;
+    --color-fuchsia-500: #cf14eb;
+    --color-fuchsia-600: #af11c7;
+    --color-fuchsia-700: #8f0ea2;
+    --color-fuchsia-800: #6f0b7e;
+    --color-fuchsia-900: #50085a;
+
+    /* red */
+    --color-red-25: #fff5f4;
+    --color-red-50: #ffdcda;
+    --color-red-100: #ffc5c1;
+    --color-red-200: #ffa19b;
+    --color-red-300: #ff7a72;
+    --color-red-400: #ff574d;
+    --color-red-500: #ff3838;
+    --color-red-600: #e92215;
+    --color-red-700: #d21a0e;
+    --color-red-800: #be170c;
+    --color-red-900: #ab0a00;
+
+    /* black */
+    --color-black-50: #1c222b0a;
+    --color-transparent-dark-50: #1c222b05;
+
+    /* dark slate */
+    --color-dark-slate-25: #0a0c111a;
+    --color-dark-slate-50: #0a0c11;
+    --color-dark-slate-100: #1c222b0d;
+    --color-dark-slate-200: #1b4dff0d;
+    --color-dark-slate-300: #1b4dff15;
+    --color-dark-slate-400: #181818;
+
+    /* white */
+    --color-white-900: #ffffff;
+
+    /* Shadows from Figma */
+    --shadow-xs: 0px 1px 2px 0px rgba(18, 18, 23, 0.05);
+    --shadow-sm: 0px 1px 2px 0px rgba(18, 18, 23, 0.06), 0px 1px 3px 0px rgba(18, 18, 23, 0.1);
+    --shadow-md: 0px 2px 4px -1px rgba(18, 18, 23, 0.06), 0px 4px 6px -1px rgba(18, 18, 23, 0.08);
+    --shadow-lg: 0px 4px 6px -2px rgba(18, 18, 23, 0.05), 0px 10px 15px -3px rgba(18, 18, 23, 0.08);
+    --shadow-xl:
+        0px 20px 65px -5px rgba(18, 18, 23, 0.04), 0px 10px 20px -5px rgba(18, 18, 23, 0.04);
+    --shadow-2xl: 0px 25px 80px -12px rgba(18, 18, 23, 0.16);
+    --shadow-3xl: -12px 12px 24px 0px rgba(18, 18, 23, 0.24);
+    --shadow-overlay:
+        0px 2px 4px 0px rgba(18, 18, 23, 0.04), 0px 5px 8px 0px rgba(18, 18, 23, 0.04),
+        0px 10px 18px 0px rgba(18, 18, 23, 0.03), 0px 24px 48px 0px rgba(18, 18, 23, 0.03),
+        0px 0px 0px 1px rgba(255, 255, 255, 0.24);
+    --shadow-resource-sidebar:
+        0px 1px 2px 0px rgba(18, 18, 23, 0.06), 0px 1px 3px 0px rgba(18, 18, 23, 0.1);
+    --shadow-resource-sidebar-hover: 0px 4px 18.8px 0px #d8d8d840;
+
+    /* primary */
+    --color-primary-900: #1a49b7;
+    --color-primary-800: #0f358e;
+    --color-primary-300: #d4e0fd;
+    --color-primary-200: #f3f6ff;
+    --color-primary-100: rgba(48, 108, 249, 0.4);
+}
