@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+html,
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* token sheet FIRST so its @config is picked up */
+@import './tokens.css';
+
+/* Tailwind core */
+@import 'tailwindcss';
+
+@theme inline {
+    /* slate */
+    --color-slate-25: var(--color-slate-25);
+    --color-slate-50: var(--color-slate-50);
+    --color-slate-100: var(--color-slate-100);
+    --color-slate-200: var(--color-slate-200);
+    --color-slate-300: var(--color-slate-300);
+    --color-slate-400: var(--color-slate-400);
+    --color-slate-500: var(--color-slate-500);
+    --color-slate-600: var(--color-slate-600);
+    --color-slate-700: var(--color-slate-700);
+    --color-slate-800: var(--color-slate-800);
+    --color-slate-900: var(--color-slate-900);
+
+    /* blue  */
+    --color-blue-25: var(--color-blue-25);
+    --color-blue-50: var(--color-blue-50);
+    --color-blue-100: var(--color-blue-100);
+    --color-blue-200: var(--color-blue-200);
+    --color-blue-300: var(--color-blue-300);
+    --color-blue-400: var(--color-blue-400);
+    --color-blue-500: var(--color-blue-500);
+    --color-blue-600: var(--color-blue-600);
+    --color-blue-700: var(--color-blue-700);
+    --color-blue-800: var(--color-blue-800);
+    --color-blue-900: var(--color-blue-900);
+
+    /* blue dark */
+    --color-blue-dark-25: var(--color-blue-dark-25);
+    --color-blue-dark-50: var(--color-blue-dark-50);
+    --color-blue-dark-100: var(--color-blue-dark-100);
+    --color-blue-dark-200: var(--color-blue-dark-200);
+    --color-blue-dark-300: var(--color-blue-dark-300);
+    --color-blue-dark-400: var(--color-blue-dark-400);
+    --color-blue-dark-500: var(--color-blue-dark-500);
+    --color-blue-dark-600: var(--color-blue-dark-600);
+    --color-blue-dark-700: var(--color-blue-dark-700);
+    --color-blue-dark-800: var(--color-blue-dark-800);
+    --color-blue-dark-900: var(--color-blue-dark-900);
+
+    /* green */
+    --color-green-25: var(--color-green-25);
+    --color-green-50: var(--color-green-50);
+    --color-green-100: var(--color-green-100);
+    --color-green-200: var(--color-green-200);
+    --color-green-300: var(--color-green-300);
+    --color-green-400: var(--color-green-400);
+    --color-green-500: var(--color-green-500);
+    --color-green-600: var(--color-green-600);
+    --color-green-700: var(--color-green-700);
+    --color-green-800: var(--color-green-800);
+    --color-green-900: var(--color-green-900);
+
+    /* green dark */
+    --color-green-dark-25: var(--color-green-dark-25);
+    --color-green-dark-50: var(--color-green-dark-50);
+    --color-green-dark-100: var(--color-green-dark-100);
+    --color-green-dark-200: var(--color-green-dark-200);
+    --color-green-dark-300: var(--color-green-dark-300);
+    --color-green-dark-400: var(--color-green-dark-400);
+    --color-green-dark-500: var(--color-green-dark-500);
+    --color-green-dark-600: var(--color-green-dark-600);
+    --color-green-dark-700: var(--color-green-dark-700);
+    --color-green-dark-800: var(--color-green-dark-800);
+    --color-green-dark-900: var(--color-green-dark-900);
+
+    /* yellow */
+    --color-yellow-25: var(--color-yellow-25);
+    --color-yellow-50: var(--color-yellow-50);
+    --color-yellow-100: var(--color-yellow-100);
+    --color-yellow-200: var(--color-yellow-200);
+    --color-yellow-300: var(--color-yellow-300);
+    --color-yellow-400: var(--color-yellow-400);
+    --color-yellow-500: var(--color-yellow-500);
+    --color-yellow-600: var(--color-yellow-600);
+    --color-yellow-700: var(--color-yellow-700);
+    --color-yellow-800: var(--color-yellow-800);
+    --color-yellow-900: var(--color-yellow-900);
+
+    /* fuchsia */
+    --color-fuchsia-25: var(--color-fuchsia-25);
+    --color-fuchsia-50: var(--color-fuchsia-50);
+    --color-fuchsia-100: var(--color-fuchsia-100);
+    --color-fuchsia-200: var(--color-fuchsia-200);
+    --color-fuchsia-300: var(--color-fuchsia-300);
+    --color-fuchsia-400: var(--color-fuchsia-400);
+    --color-fuchsia-500: var(--color-fuchsia-500);
+    --color-fuchsia-600: var(--color-fuchsia-600);
+    --color-fuchsia-700: var(--color-fuchsia-700);
+    --color-fuchsia-800: var(--color-fuchsia-800);
+    --color-fuchsia-900: var(--color-fuchsia-900);
+
+    /* red */
+    --color-red-25: var(--color-red-25);
+    --color-red-50: var(--color-red-50);
+    --color-red-100: var(--color-red-100);
+    --color-red-200: var(--color-red-200);
+    --color-red-300: var(--color-red-300);
+    --color-red-400: var(--color-red-400);
+    --color-red-500: var(--color-red-500);
+    --color-red-600: var(--color-red-600);
+    --color-red-700: var(--color-red-700);
+    --color-red-800: var(--color-red-800);
+    --color-red-900: var(--color-red-900);
+
+    /* dark slate */
+    --color-dark-slate-25: var(--color-dark-slate-25);
+    --color-dark-slate-50: var(--color-dark-slate-50);
+    --color-dark-slate-100: var(--color-dark-slate-100);
+    --color-dark-slate-200: var(--color-dark-slate-200);
+    --color-dark-slate-300: var(--color-dark-slate-300);
+    --color-dark-slate-400: var(--color-dark-slate-400);
+
+    /* black */
+    --color-black-50: var(--color-black-50);
+    --color-black-100: var(--color-black-100);
+    --color-transparent-dark-50: var(--color-transparent-dark-50);
+
+    /* white */
+    --color-white-900: var(--color-white-900);
+
+    /* mint */
+    --color-green-mint: var(--color-green-mint);
+
+    /* shadow */
+    --shadow-xs: var(--shadow-xs);
+    --shadow-sm: var(--shadow-sm);
+    --shadow-md: var(--shadow-md);
+    --shadow-lg: var(--shadow-lg);
+    --shadow-xl: var(--shadow-xl);
+    --shadow-2xl: var(--shadow-2xl);
+    --shadow-3xl: var(--shadow-3xl);
+    --shadow-overlay: var(--shadow-overlay);
+
+    /* primary */
+    --color-primary-900: var(--color-primary-900);
+    --color-primary-800: var(--color-primary-800);
+    --color-primary-300: var(--color-primary-300);
+    --color-primary-200: var(--color-primary-200);
+    --color-primary-100: var(--color-primary-100);
+}
