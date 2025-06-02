@@ -88,7 +88,6 @@ const Pagination: React.FC<PaginationProps> = ({
                     />
                 </Button>
                 <ReactPaginate
-                    id="pagination"
                     breakLabel={<span className="px-2 text-neutral-400">...</span>}
                     nextLabel={null}
                     onPageChange={({ selected }: { selected: number }) => setPageIndex(selected)}
