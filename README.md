@@ -28,6 +28,34 @@ Ensure you have the following installed on your local:
     npm i -g pnpm
     ```
 
+### Installation
+
+1. Clone the repository
+    ```sh
+    git clone https://github.com/amangupta37/firmable-assignment.git
+    ```
+2. Navigate to the project directory:
+
+    ```sh
+    cd firmable-assignment
+    ```
+
+3. Install Dependencies
+
+    ```sh
+    pnpm i
+    ```
+
+4. Add a .env file in the root folder of the project and update it with the below value
+
+    ```js
+    NEXT_PUBLIC_SUPABASE_URL=
+
+    NEXT_PUBLIC_SUPABASE_ANON_KEY=
+
+    NEXT_PUBLIC_SUPABASE_SERVICE_ROLE_KEY=
+    ```
+
 ### Running the Project Locally
 
 1. Start the development server:
